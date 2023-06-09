@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset>
+        
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="iusu">Usuário</label>
+                <input type="text" name="usu" id="iusu" required>
+            </p>
+            <p>
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" required>
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </form>
+    </fieldset>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esbas" id="isbas"> <label for="isbas">basquete</label><br>
+            <input type="checkbox" name="efut" id="isfut"> <label for="isfut">futebol</label><br>
+            <input type="checkbox" name="esvol" id="isvol"> <label for="isvol">volei</label><br>
+            <input type="submit" name="enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
